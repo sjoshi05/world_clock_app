@@ -45,6 +45,10 @@ function updateCity(event) {
           <div class="time">${cityTimeFormatted}</div>
         </div>
 `;
+
+  setInterval(() => {
+    updateCity(event);
+  }, 1000);
 }
 
 let citiesSelectElement = document.querySelector("#city");
