@@ -44,6 +44,7 @@ function updateCity(event) {
           </div>
           <div class="time">${cityTimeFormatted}</div>
         </div>
+        <a href="/" class="city"> Return to Homepage </a>
 `;
 
   setInterval(() => {
